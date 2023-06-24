@@ -15,9 +15,15 @@ using namespace std;
 int main() {
     srand(time(0));
 
-    int first_card =
+    int first_card = rand() % 10 + 1;
+    int second_card = rand() % 10 + 1;
+    int total_cards = (first_card + second_card);
+
+    cout << "First cards: " << ", " << second_card;
+    cout << "Total: " << total_cards;
+
+    cout << "Do you want another card"
 
 
-            cout << "First cards: " <<
     return 0;
 }
